@@ -17,7 +17,7 @@ export default function Social() {
           icon={<Icon  Icon={FaLinkedinIn} url={linkedInUrl} />}
           subtitle={linkedInUrl.split("/").at(-1)}
           url={linkedInUrl}
-          titleClassName="whitespace-nowrap"
+          // titleClassName="whitespace-nowrap"
           className="items-start"
         />
         <Item
@@ -25,14 +25,14 @@ export default function Social() {
           icon={<Icon  Icon={FaTelegramPlane} url={telegramUrl} />}
           url={telegramUrl}
           className="items-start"
-          titleClassName="whitespace-nowrap"
+          // titleClassName="whitespace-nowrap"
           subtitle={telegramUrl.split("/").at(-1)}
         />
         <Item
           title="Instagram"
           icon={<Icon  Icon={FaInstagram} url={instagramUrl} />}
           url={instagramUrl}
-          titleClassName="whitespace-nowrap"
+          // titleClassName="whitespace-nowrap"
           className="items-start"
           subtitle={instagramUrl.split("/").at(-1)}
         />
