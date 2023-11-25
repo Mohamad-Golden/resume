@@ -11,8 +11,6 @@ export default function PersonalSummary() {
       <div className="text-[#818181] pl-1">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero enim
         accusantium praesentium culpa, iste aperiam repellat facilis inventore
-        blanditiis nulla perspiciatis sequi sapiente vitae, sed laboriosam
-        suscipit necessitatibus vero eligendi.
       </div>
     </div>
   );

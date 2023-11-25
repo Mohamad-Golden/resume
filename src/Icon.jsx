@@ -8,7 +8,7 @@ export default function Icon({ Icon, size, className, url, wrapperClassName }) {
     />
   );
   const parentClassName = twMerge(
-    "grid place-items-center bg-white w-6 h-6 rounded-full ",
+    "grid place-items-center bg-white w-6 h-6 rounded-full",
     wrapperClassName
   );
   return (

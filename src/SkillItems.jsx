@@ -2,8 +2,11 @@ import { FaMinus } from "react-icons/fa";
 import Item from "./Item";
 import {
   SiDjango,
+  SiDocker,
   SiExpress,
   SiFastapi,
+  SiGraphql,
+  SiLinux,
   SiMongodb,
   SiPostgresql,
   SiPrisma,
@@ -12,15 +15,16 @@ import {
   SiSqlalchemy,
   SiTailwindcss,
   SiTypescript,
+  SiVim,
 } from "react-icons/si";
-import { TbGhost } from "react-icons/tb";
+import { TbBrandOauth, TbGhost } from "react-icons/tb";
 
 function Base({ title, Icon }) {
   return (
     <Item
       title={title}
-      icon={<Icon  className="text-[#01A2E8] dark:text-[#EC008D] text-sm" />}
-      titleClassName={"text-[#818181]"}
+      icon={<Icon className="text-[#01A2E8] dark:text-[#EC008D] text-sm" />}
+      titleClassName={"text-[#818181] whitespace-nowrap"}
       className={"gap-x-[5px]"}
     />
   );
@@ -67,7 +71,7 @@ export function ExpressJs() {
 }
 
 export function DjangoRest() {
-  return <Base title={"Django Rest Framework"} Icon={SiDjango} />;
+  return <Base title={"DRF"} Icon={SiDjango} />;
 }
 
 export function SQLAlchemy() {
@@ -80,4 +84,40 @@ export function Prisma() {
 
 export function DjangoORM() {
   return <Base title={"Django ORM"} Icon={FaMinus} />;
+}
+
+export function Docker() {
+  return <Base title={"Docker"} Icon={SiDocker} />;
+}
+
+export function Linux() {
+  return <Base title={"Linux"} Icon={SiLinux} />;
+}
+
+export function Vim() {
+  return <Base title={"Vim"} Icon={SiVim} />;
+}
+
+export function Rest() {
+  return <Base title={"Rest"} Icon={FaMinus} />;
+}
+
+export function GraphQL() {
+  return <Base title={"GraphQL"} Icon={SiGraphql} />;
+}
+
+export function GRPC() {
+  return <Base title={"gRPC"} Icon={FaMinus} />;
+}
+
+export function OAuth2() {
+  return <Base title={"OAuth2"} Icon={TbBrandOauth} />;
+}
+
+export function Microservice() {
+  return <Base title={"Microservice"} Icon={FaMinus} />;
+}
+
+export function JWT() {
+  return <Base title={"JWT"} Icon={FaMinus} />;
 }

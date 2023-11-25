@@ -3,7 +3,7 @@ export default function ContainerWrapper({ children }) {
   const frequency = 1;
   const unit = (2 * Math.PI * frequency) / points;
   const phase = 270;
-  const amplitude = 5;
+  const amplitude = 9;
   const height_px = 380;
 
   const offset = 370;

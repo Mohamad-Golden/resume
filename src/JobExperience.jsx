@@ -26,8 +26,6 @@ export default function JobExperience() {
         <div className="text-[#818181] ">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero enim
           accusantium praesentium culpa, iste aperiam repellat facilis inventore
-          blanditiis nulla perspiciatis sequi sapiente vitae, sed laboriosam
-          suscipit necessitatibus vero eligendi.
         </div>
         <div className="pt-2 flex gap-4 flex-wrap">
           <FastApi />

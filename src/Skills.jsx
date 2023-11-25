@@ -3,17 +3,31 @@ import { IoMdCheckmarkCircle } from "react-icons/io";
 import {
   DjangoORM,
   DjangoRest,
+  Docker,
   ExpressJs,
   FastApi,
+  GRPC,
+  GraphQL,
+  JWT,
+  Jotai,
+  Linux,
+  Microservice,
   MongoDB,
+  OAuth2,
   PostgreSql,
   Prisma,
+  ReactJs,
+  ReactQuery,
   Redis,
+  Rest,
   SQLAlchemy,
+  Tailwind,
+  Vim,
 } from "./SkillItems";
 import { SiFramework } from "react-icons/si";
 import SkillPack from "./SkillPack";
-import { FaDatabase } from "react-icons/fa";
+import { FaDatabase, FaRegQuestionCircle } from "react-icons/fa";
+import { TbBrandJavascript } from "react-icons/tb";
 
 export default function Skills() {
   return (
@@ -25,7 +39,7 @@ export default function Skills() {
         }
       />
       <div className="pl-1">
-        <div className="pt-2 grid gap-4 grid-cols-3">
+        <div className="pt-2 grid grid-cols-3 gap-y-4">
           <SkillPack title={"Framework"} Icon={SiFramework}>
             <FastApi />
             <DjangoRest />
@@ -40,6 +54,27 @@ export default function Skills() {
             <SQLAlchemy />
             <Prisma />
             <DjangoORM />
+          </SkillPack>
+          <SkillPack title={"API Protocols"} Icon={FaDatabase}>
+            <GraphQL />
+            <Rest />
+            <GRPC />
+          </SkillPack>
+          <SkillPack title={"Tools"} Icon={FaDatabase}>
+            <Docker />
+            <Linux />
+            <Vim />
+          </SkillPack>
+          <SkillPack title={"Javascript"} Icon={TbBrandJavascript}>
+            <ReactJs />
+            <ReactQuery />
+            <Jotai />
+            <Tailwind />
+          </SkillPack>
+          <SkillPack title={"Other"} Icon={FaRegQuestionCircle}>
+            <OAuth2 />
+            <JWT />
+            <Microservice />
           </SkillPack>
         </div>
       </div>
