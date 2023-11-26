@@ -6,9 +6,9 @@ import Skills from "./Skills";
 export default function Container() {
   return (
     <ContainerWrapper>
-      <div className="py-10 pr-12 pl-6">
+      <div className="pt-7 pb-4 pr-12 pl-6">
         <div className="text-right">
-          <div className="text-[#01A2E8] text-4xl dark:text-[#842990]">
+          <div className="text-[#01A2E8] text-3xl dark:text-[#842990]">
             <div>Mohammad Reza</div>
             <div>Talaei</div>
           </div>

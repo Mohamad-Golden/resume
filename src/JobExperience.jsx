@@ -2,9 +2,12 @@ import {
   Celery,
   DjangoRest,
   FastApi,
+  Javascript,
+  Jinja,
   Jotai,
   MongoDB,
   PostgreSql,
+  Python,
   ReactJs,
   ReactQuery,
   Tailwind,
@@ -40,13 +43,16 @@ export default function JobExperience() {
           <ReactQuery />
         </Job>
       <Job
-        // jobTitle={"Freelancer"}
-        companyAndYear={"Freelancer | 2021 - 2022"}
+        jobTitle={"Freelancer"}
+        companyAndYear={" 2021 - 2022"}
         description="Developing small projects from different clients on different
 freelancing platforms like Ponisha"
       >
+        <Python />
         <DjangoRest />
         <PostgreSql />
+        <Javascript />
+        {/* <Jinja /> */}
       </Job>
       </div>
     </div>

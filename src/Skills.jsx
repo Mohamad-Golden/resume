@@ -32,6 +32,8 @@ import {
   AzureCognitiveSearch,
   SQLModel,
   Swagger,
+  TypeScript,
+  Websocket,
 } from "./SkillItems";
 import { SiFramework } from "react-icons/si";
 import SkillPack from "./SkillPack";
@@ -69,12 +71,14 @@ export default function Skills() {
             <GraphQL />
             <Rest />
             <GRPC />
+            <Websocket />
           </SkillPack>
           <SkillPack title={"Javascript"} Icon={TbBrandJavascript}>
             <ReactJs />
             <ReactQuery />
             <Jotai />
-            <Tailwind />
+            {/* <Tailwind /> */}
+            <TypeScript />
           </SkillPack>
           <SkillPack title={"Tools"} Icon={FaDatabase}>
             <Docker />

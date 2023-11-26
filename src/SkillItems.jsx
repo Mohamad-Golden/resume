@@ -8,11 +8,14 @@ import {
   SiFastapi,
   SiGit,
   SiGraphql,
+  SiJavascript,
+  SiJinja,
   SiLinux,
   SiMongodb,
   SiPostgresql,
   SiPrisma,
   SiPytest,
+  SiPython,
   SiReact,
   SiRedis,
   SiSelenium,
@@ -22,7 +25,12 @@ import {
   SiTypescript,
   SiVim,
 } from "react-icons/si";
-import { TbBrandOauth, TbBrandVscode, TbCloudSearch, TbGhost } from "react-icons/tb";
+import {
+  TbBrandOauth,
+  TbBrandVscode,
+  TbCloudSearch,
+  TbGhost,
+} from "react-icons/tb";
 
 function Base({ title, Icon }) {
   return (
@@ -161,4 +169,20 @@ export function SQLModel() {
 
 export function Swagger() {
   return <Base title={"Swagger"} Icon={SiSwagger} />;
+}
+
+export function Python() {
+  return <Base title={"Python"} Icon={SiPython} />;
+}
+
+export function Javascript() {
+  return <Base title={"Javascript"} Icon={SiJavascript} />;
+}
+
+export function Jinja() {
+  return <Base title={"Jinja"} Icon={SiJinja} />;
+}
+
+export function Websocket() {
+  return <Base title={"Websocket"} Icon={FaMinus} />;
 }
