@@ -31,6 +31,7 @@ import {
   Scrapy,
   AzureCognitiveSearch,
   SQLModel,
+  Swagger,
 } from "./SkillItems";
 import { SiFramework } from "react-icons/si";
 import SkillPack from "./SkillPack";
@@ -78,6 +79,7 @@ export default function Skills() {
           <SkillPack title={"Tools"} Icon={FaDatabase}>
             <Docker />
             <Linux />
+            <Swagger />
             <VSCode />
             <Git />
             <Vim />

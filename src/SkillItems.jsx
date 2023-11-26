@@ -17,6 +17,7 @@ import {
   SiRedis,
   SiSelenium,
   SiSqlalchemy,
+  SiSwagger,
   SiTailwindcss,
   SiTypescript,
   SiVim,
@@ -156,4 +157,8 @@ export function AzureCognitiveSearch() {
 
 export function SQLModel() {
   return <Base title={"SQLModel"} Icon={FaDatabase} />;
+}
+
+export function Swagger() {
+  return <Base title={"Swagger"} Icon={SiSwagger} />;
 }

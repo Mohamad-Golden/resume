@@ -14,7 +14,7 @@ export default function Container() {
           </div>
           <div className="text-[#818181]">WEB DEVELOPER</div>
         </div>
-        <div className="flex flex-col gap-y-8">
+        <div className="flex flex-col gap-y-6">
           <PersonalSummary />
           <JobExperience />
           <Skills />
