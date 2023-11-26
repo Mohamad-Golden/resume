@@ -8,9 +8,8 @@ export default function PersonalSummary() {
         title={"Personal Summary"}
         icon={<IoMdContact  className="text-[#01A2E8] dark:text-[#EC008D] text-2xl"/>}
       />
-      <div className="text-[#818181] pl-1">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero enim
-        accusantium praesentium culpa, iste aperiam repellat facilis inventore
+      <div className="text-[#818181] pl-1 text-sm">
+Hey there! I'm your friendly neighborhood Full Stack Developer. I'm 23 and I've been programming for 3 years. I love playing around with Node.js and Python to create cool stuff on the internet. While I can handle both front-end and back-end, I must admit, I'm a bit of a 'backend whisperer'.
       </div>
     </div>
   );

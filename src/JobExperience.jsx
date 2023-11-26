@@ -2,6 +2,7 @@ import Title from "./Title";
 import { IoBagCheckSharp } from "react-icons/io5";
 // import { FaUserCheck } from "react-icons/fa";
 import {
+  Celery,
   FastApi,
   Jotai,
   MongoDB,
@@ -23,13 +24,14 @@ export default function JobExperience() {
           <div>Diginote | 2022 - 2023</div>
           <div className="text-[#01A2E8] dark:text-[#EC008D]">Back-end Developer</div>
         </div>
-        <div className="text-[#818181] ">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero enim
-          accusantium praesentium culpa, iste aperiam repellat facilis inventore
+        <div className="text-[#818181] text-sm ">
+ I developed the back-end of a form builder and document management system.
+  I also collaborated with front-end team to create some front-end features and pages.
         </div>
-        <div className="pt-2 flex gap-4 flex-wrap">
+        <div className="pt-2 flex gap-x-4 gap-y-2 flex-wrap">
           <FastApi />
           <MongoDB />
+          <Celery />
           <ReactJs />
           <Jotai />
           <TypeScript />

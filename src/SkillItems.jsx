@@ -1,23 +1,27 @@
-import { FaMinus } from "react-icons/fa";
+import { FaDatabase, FaMinus } from "react-icons/fa";
 import Item from "./Item";
 import {
+  SiCelery,
   SiDjango,
   SiDocker,
   SiExpress,
   SiFastapi,
+  SiGit,
   SiGraphql,
   SiLinux,
   SiMongodb,
   SiPostgresql,
   SiPrisma,
+  SiPytest,
   SiReact,
   SiRedis,
+  SiSelenium,
   SiSqlalchemy,
   SiTailwindcss,
   SiTypescript,
   SiVim,
 } from "react-icons/si";
-import { TbBrandOauth, TbGhost } from "react-icons/tb";
+import { TbBrandOauth, TbBrandVscode, TbCloudSearch, TbGhost } from "react-icons/tb";
 
 function Base({ title, Icon }) {
   return (
@@ -120,4 +124,36 @@ export function Microservice() {
 
 export function JWT() {
   return <Base title={"JWT"} Icon={FaMinus} />;
+}
+
+export function VSCode() {
+  return <Base title={"VSCode"} Icon={TbBrandVscode} />;
+}
+
+export function Git() {
+  return <Base title={"Git"} Icon={SiGit} />;
+}
+
+export function Pytest() {
+  return <Base title={"Pytest"} Icon={SiPytest} />;
+}
+
+export function Selenium() {
+  return <Base title={"Selenium"} Icon={SiSelenium} />;
+}
+
+export function Celery() {
+  return <Base title={"Celery"} Icon={SiCelery} />;
+}
+
+export function Scrapy() {
+  return <Base title={"Scrapy"} Icon={FaMinus} />;
+}
+
+export function AzureCognitiveSearch() {
+  return <Base title={"Azure Cognitive Search"} Icon={TbCloudSearch} />;
+}
+
+export function SQLModel() {
+  return <Base title={"SQLModel"} Icon={FaDatabase} />;
 }

@@ -8,9 +8,9 @@ export default function SideBar() {
     <div className=" px-6">
       <div className="pt-5 pb-5">
         <img
-          src="me.jpg"
+          src="me6.jpg"
           alt=""
-          className="rounded-full w-44 h-44 object-cover shadow-xl  border-[#133A97] dark:border-[#842990] border-[.4vw]"
+          className="rounded-full w-44 h-44 object-cover shadow-xl  border-[#133A97] dark:border-[#842990] border-[.4vw] "
         />
       </div>
       <div className="flex flex-col gap-y-5 ">

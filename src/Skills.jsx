@@ -23,10 +23,18 @@ import {
   SQLAlchemy,
   Tailwind,
   Vim,
+  VSCode,
+  Git,
+  Pytest,
+  Selenium,
+  Celery,
+  Scrapy,
+  AzureCognitiveSearch,
+  SQLModel,
 } from "./SkillItems";
 import { SiFramework } from "react-icons/si";
 import SkillPack from "./SkillPack";
-import { FaDatabase, FaRegQuestionCircle } from "react-icons/fa";
+import { FaCode, FaDatabase, FaRegQuestionCircle } from "react-icons/fa";
 import { TbBrandJavascript } from "react-icons/tb";
 
 export default function Skills() {
@@ -40,19 +48,20 @@ export default function Skills() {
       />
       <div className="pl-1">
         <div className="pt-2 grid grid-cols-3 gap-y-4">
-          <SkillPack title={"Framework"} Icon={SiFramework}>
+          <SkillPack title={"Frameworks"} Icon={SiFramework}>
             <FastApi />
             <DjangoRest />
             <ExpressJs />
           </SkillPack>
-          <SkillPack title={"DBMS"} Icon={FaDatabase}>
+          <SkillPack title={"DBMSs"} Icon={FaDatabase}>
             <PostgreSql />
             <MongoDB />
             <Redis />
           </SkillPack>
-          <SkillPack title={"ORM"} Icon={FaDatabase}>
+          <SkillPack title={"ORMs"} Icon={FaDatabase}>
             <SQLAlchemy />
             <Prisma />
+            <SQLModel />
             <DjangoORM />
           </SkillPack>
           <SkillPack title={"API Protocols"} Icon={FaDatabase}>
@@ -60,21 +69,30 @@ export default function Skills() {
             <Rest />
             <GRPC />
           </SkillPack>
-          <SkillPack title={"Tools"} Icon={FaDatabase}>
-            <Docker />
-            <Linux />
-            <Vim />
-          </SkillPack>
           <SkillPack title={"Javascript"} Icon={TbBrandJavascript}>
             <ReactJs />
             <ReactQuery />
             <Jotai />
             <Tailwind />
           </SkillPack>
-          <SkillPack title={"Other"} Icon={FaRegQuestionCircle}>
+          <SkillPack title={"Tools"} Icon={FaDatabase}>
+            <Docker />
+            <Linux />
+            <VSCode />
+            <Git />
+            <Vim />
+          </SkillPack>
+          <SkillPack title={"Libraries"} Icon={FaCode}>
+            <Pytest />
+            <Selenium />
+            <Celery />
+            <Scrapy />
+          </SkillPack>
+          <SkillPack title={"Others"} Icon={FaRegQuestionCircle}>
             <OAuth2 />
             <JWT />
             <Microservice />
+            <AzureCognitiveSearch />
           </SkillPack>
         </div>
       </div>

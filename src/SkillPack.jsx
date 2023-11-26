@@ -8,7 +8,7 @@ export default function SkillPack({ title, Icon, children }) {
         className={"text-sm"}
         icon={<Icon  className="text-[#01A2E8] dark:text-[#EC008D]" />}
       />
-      <div className="pl-1 flex flex-col gap-y-1 flex-wrap max-h-24">
+      <div className="pl-1 flex flex-col gap-y-1 flex-wrap ">
         {children}
       </div>
     </div>
